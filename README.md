@@ -1,0 +1,3 @@
+# biglinux-mime
+
+Mimetype configuration
