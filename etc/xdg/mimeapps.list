@@ -20,6 +20,10 @@ image/x-jp2-codestream=gimp.desktop;
 image/x-sun-raster=org.kde.gwenview.desktop;
 image/x-xbitmap=gimp.desktop;
 text/plain=org.kde.kate.desktop;
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
+
 [Default Applications]
 application/atom+xml=brave-browser.desktop;
 application/dicom=gimp.desktop;
@@ -478,3 +482,6 @@ x-content/audio-player=clementine.desktop;
 x-content/video-dvd=smplayer.desktop;
 x-content/video-svcd=smplayer.desktop;
 x-content/video-vcd=smplayer.desktop;
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
