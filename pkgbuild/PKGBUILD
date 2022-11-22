@@ -8,7 +8,7 @@ license=('GPL')
 url="https://github.com/biglinux/biglinux-mime"
 pkgdesc="Scriipt to solve some problems with sudo in KDE"
 source=("git+https://github.com/biglinux/biglinux-mime.git")
-depends=('yad' 'namcap' 'pamac-gtk' 'kate')
+depends=('yad' 'namcap' 'pamac-gtk')
 md5sums=(SKIP)
 
 package() {
