@@ -1,14 +1,14 @@
-# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+# Maintainer: Barnabe di Kartola <barnabedikartola@gmail.com>
 
-pkgname=biglinux-mime
+pkgname=xivastudio-mime
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
-url="https://github.com/biglinux/biglinux-mime"
-pkgdesc="Scriipt to solve some problems with sudo in KDE"
-source=("git+https://github.com/biglinux/biglinux-mime.git")
-depends=('yad' 'namcap' 'pamac-gtk')
+url="https://github.com/xivastudio/xivastudio-mime"
+pkgdesc="Mime List for XIVA Studio"
+source=("git+https://github.com/xivastudio/xivastudio-mime.git")
+# depends=('')
 md5sums=(SKIP)
 
 package() {
