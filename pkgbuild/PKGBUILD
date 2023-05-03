@@ -9,6 +9,7 @@ url="https://github.com/xivastudio/xivastudio-mime"
 pkgdesc="Mime List for XIVA Studio"
 source=("git+https://github.com/xivastudio/xivastudio-mime.git")
 # depends=('')
+conflicts=('biglinux-mime')
 md5sums=(SKIP)
 
 package() {
